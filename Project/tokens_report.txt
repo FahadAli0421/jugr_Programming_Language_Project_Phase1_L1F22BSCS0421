@@ -1,0 +1,105 @@
+Line 3: KEYWORD shamil_karo
+Line 3: PUNCTUATION <
+Line 3: STRING "likhle_sunle"
+Line 3: PUNCTUATION >
+Line 4: KEYWORD khali_kaam_kar
+Line 4: KEYWORD shuru_hoja
+Line 4: PUNCTUATION (
+Line 4: PUNCTUATION )
+Line 5: PUNCTUATION {
+Line 6: KEYWORD pura_number
+Line 6: IDENTIFIER n
+Line 6: TERMINATOR ;
+Line 7: KEYWORD likhle
+Line 7: PUNCTUATION (
+Line 7: STRING "Enter Number: "
+Line 7: PUNCTUATION )
+Line 7: TERMINATOR ;
+Line 8: KEYWORD sunle
+Line 8: PUNCTUATION (
+Line 8: IDENTIFIER n
+Line 8: PUNCTUATION )
+Line 8: TERMINATOR ;
+Line 10: KEYWORD pura_number
+Line 10: IDENTIFIER factor_count
+Line 10: OPERATOR =
+Line 10: NUMBER 0
+Line 10: TERMINATOR ;
+Line 12: KEYWORD ghuma_de
+Line 12: PUNCTUATION (
+Line 12: KEYWORD pura_number
+Line 12: IDENTIFIER i
+Line 12: OPERATOR =
+Line 12: NUMBER 1
+Line 12: TERMINATOR ;
+Line 12: IDENTIFIER i
+Line 12: OPERATOR se_bada_ya_barabar_ha
+Line 12: IDENTIFIER n
+Line 12: TERMINATOR ;
+Line 12: IDENTIFIER i
+Line 12: OPERATOR ++
+Line 12: PUNCTUATION )
+Line 13: PUNCTUATION {
+Line 14: KEYWORD maan_lo_ye
+Line 14: PUNCTUATION (
+Line 14: IDENTIFIER n
+Line 14: OPERATOR %
+Line 14: IDENTIFIER i
+Line 14: OPERATOR ke_barabar_ha
+Line 14: NUMBER 0
+Line 14: PUNCTUATION )
+Line 15: PUNCTUATION {
+Line 16: IDENTIFIER factor_count
+Line 16: OPERATOR ++
+Line 16: TERMINATOR ;
+Line 17: PUNCTUATION }
+Line 18: PUNCTUATION }
+Line 20: KEYWORD pura_number
+Line 20: ERROR -> @is_prime (invalid symbol or illegal identifier start)
+Line 20: OPERATOR =
+Line 20: NUMBER 0
+Line 20: TERMINATOR ;
+Line 22: KEYWORD maan_lo_ye
+Line 22: PUNCTUATION (
+Line 22: IDENTIFIER factor_count
+Line 22: OPERATOR ke_barabar_ha
+Line 22: NUMBER 2.0
+Line 22: ERROR -> ^ (invalid symbol or illegal identifier start)
+Line 22: PUNCTUATION )
+Line 23: PUNCTUATION {
+Line 24: ERROR -> @is_prime (invalid symbol or illegal identifier start)
+Line 24: OPERATOR =
+Line 24: NUMBER 1
+Line 24: TERMINATOR ;
+Line 25: PUNCTUATION }
+Line 27: KEYWORD maan_lo_ye
+Line 27: PUNCTUATION (
+Line 27: ERROR -> @is_prime (invalid symbol or illegal identifier start)
+Line 27: OPERATOR ke_barabar_ha
+Line 27: ERROR -> 1. (invalid number format (incomplete float or exponent base))
+Line 27: PUNCTUATION )
+Line 28: PUNCTUATION {
+Line 29: KEYWORD likhle
+Line 29: PUNCTUATION (
+Line 29: ERROR -> 2n (invalid identifier (cannot start with digits))
+Line 29: OPERATOR +
+Line 29: STRING " is prime number"
+Line 29: PUNCTUATION )
+Line 29: TERMINATOR ;
+Line 30: PUNCTUATION }
+Line 31: KEYWORD bas_maan_lo_bhai
+Line 32: PUNCTUATION {
+Line 33: KEYWORD likhle
+Line 33: PUNCTUATION (
+Line 33: IDENTIFIER n
+Line 33: OPERATOR +
+Line 33: STRING " is not prime number"
+Line 33: PUNCTUATION )
+Line 33: TERMINATOR ;
+Line 34: PUNCTUATION }
+Line 35: KEYWORD nikal_lo
+Line 35: TERMINATOR ;
+Line 36: PUNCTUATION }
+--------------------------
+Total Valid Tokens: 96
+Total Errors Found: 6
